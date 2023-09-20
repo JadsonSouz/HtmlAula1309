@@ -7,38 +7,50 @@
     <title>Formulário HTML</title>
 </head>
 <body>
-    <form autocomplete="on" action="" method="get">
-        Nome:
+    <form autocomplete="on" action="Pagina2.html" method="get">
+        <b>Nome:</b><br>
         <input type="text" name="nome" id="nome" placeholder="Digite o nome aqui" required="nome"
         required maxlength="10">
         <br>
         <br>
-        Sobrenome:
-        <input type="text" name="nome" id="nome" placeholder="Digite o nome aqui"
+        <b>Sobrenome:</b><br>
+        <input type="text" name="nome" id="sobrenome" placeholder="Digite o nome aqui"
         required maxlength="10">
         <br>
         <br>
-        Email:
+        <b>Email:</b><br>
         <input type="email" name="email" id="email"/>
         <br>
         <br>
-        Busca:
+        <b>Busca:</b><br>
         <input type="search" name="busca" id="busca"/>
        <br>
        <br>
-       URL:
+       <b>URL:</b><br>
        <input type="url" name="url" id="url"/>
        <br>
        <br>
-       Número:
+       <b>Número:</b><br>
        <input type="number" name="numero" id="numero">
        <br>
        <br>
-       Data e Hora
+       <b>Radio Buttons</b><br>
+       <input type="radio" name="videogame"/> Atari<br>
+       <input type="radio" name="videogame"/> Nintendo <br>
+       <input type="radio" name="videogame"/> PS5 <br>
+       <br>
+       <br>
+       <b>Check box</b><br>
+       <input type="checkbox" name="Atari" value="Atari" checked/> Atari <br> 
+       <input type="checkbox" name="Nintendo"/> Nintendo <br> 
+       <input type="checkbox" name="PS5"/> PS5 <br> 
+       <br>
+       <br>
+       <b>Data e Hora</b><br>
        <input type="datetime-local" name="datatempo"> 
        <br>
        <br>
-       <input type="submit" value="Envia">
+       <input type="submit" value="Enviar">
       
 
     </form>
