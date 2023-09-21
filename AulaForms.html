@@ -7,15 +7,15 @@
     <title>Formulário HTML</title>
 </head>
 <body>
-    <form autocomplete="on" action="Pagina2.html" method="get">
-        <b>Nome:</b><br>
-        <input type="text" name="nome" id="nome" placeholder="Digite o nome aqui" required="nome"
-        required maxlength="10">
+    <form autocomplete="on" action="Pagina2.html" method="post">
+        <label for="nome"><b>Nome</b></label><br>
+        <input type="text" id="nome" placeholder="Digite o nome aqui" required="nome"
+        required maxlength="10"><br>
         <br>
         <br>
-        <b>Sobrenome:</b><br>
-        <input type="text" name="nome" id="sobrenome" placeholder="Digite o nome aqui"
-        required maxlength="10">
+        <label for="nome"><b>Sobrenome
+        </b></label><br>
+        <input type="text" id="sobrenome">
         <br>
         <br>
         <b>Email:</b><br>
@@ -46,6 +46,18 @@
        <input type="checkbox" name="PS5"/> PS5 <br> 
        <br>
        <br>
+       <b>Select</b><br>
+       <select>
+        <option value="html5">HTML 5</option>
+        <option value="javascript" selected>JavaScript</option>
+        <option value="php">PHP</option>
+        <option value="Ruby">Ruby</option></select>
+        <br>
+        <br>
+        <fieldset>
+            <legend><b>CADASTRO</b></legend>
+            Nome: 
+        </fieldset>
        <b>Data e Hora</b><br>
        <input type="datetime-local" name="datatempo"> 
        <br>
